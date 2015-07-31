@@ -15,9 +15,10 @@ Populate subfolders with images files:
     git clone https://github.com/sourceperl/docker.sigserver.git
     git clone https://github.com/sourceperl/docker.mqttwarn.git
 
-Copy/edit configuration(s) file(s) :
+Copy/edit configuration(s) file(s) (conf from the host):
 
-    vim docker.mqttwarn/mqttwarn.ini
+    mkdir -p /srv/docker/mqttwarn/conf
+    vim /srv/docker/mqttwarn/conf/mqttwarn.ini
 
 ## Start all
 
